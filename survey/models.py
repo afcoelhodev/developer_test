@@ -16,7 +16,7 @@ class SurveyQuestion(models.Model):
     resposta = models.ManyToManyField(SurveyQuestionAlternative)
 
     def __str__(self):
-        returno self.pergunta
+        return self.pergunta
 
 
 class Survey(models.Model):
@@ -34,4 +34,4 @@ class SurveyUserAnswer(models.Model):
     resposta = models.ForeignKey(SurveyQuestionAlternative, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.name}: {self.pesquisa.titulo}"
+        return f"{self.nome}: {self.pesquisa.titulo}"
