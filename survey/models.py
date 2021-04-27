@@ -34,4 +34,4 @@ class SurveyUserAnswer(models.Model):
     resposta = models.ForeignKey(SurveyQuestionAlternative, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.nome}: {self.pesquisa.titulo}"
+        return f"{self.nome}: {self.pesquisa.titulo} - {self.questao.pergunta}"
