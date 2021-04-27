@@ -1,0 +1,54 @@
+{
+    "alternativas": [
+        {
+            "id": 1,
+            "resposta": "SIM"
+        },
+        {
+            "id": 2,
+            "resposta": "NAO"
+        },
+        {
+            "id": 3,
+            "resposta": "N/A"
+        }
+    ],
+    "perguntas": [
+        {
+            "id": 1,
+            "pergunta": "Pergunta 1?",
+            "resposta": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "pergunta": "Pergunta 2?",
+            "resposta": [
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "pesquisas": [
+        {
+            "id": 1,
+            "pergunta": "Pergunta 1?",
+            "resposta": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "pergunta": "Pergunta 2?",
+            "resposta": [
+                1,
+                2,
+                3
+            ]
+        }
+    ]
+}
