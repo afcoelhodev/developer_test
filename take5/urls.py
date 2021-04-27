@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from survey.views import home
+from survey.views import home, SurveyList
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home, name='inicio')
+    path('', home, name='inicio'),
+    path('list', SurveyList, name='list'),
 ]

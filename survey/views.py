@@ -9,3 +9,6 @@ import datetime
 
 def home(request):
     return render (request, 'home.html')
+
+def SurveyList(request):
+    return (request)
