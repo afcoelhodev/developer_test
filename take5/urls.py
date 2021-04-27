@@ -20,5 +20,5 @@ from survey.views import home, SurveyList
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='inicio'),
-    path('list', SurveyList, name='list'),
+    path('list/', SurveyList, name='list'),
 ]
